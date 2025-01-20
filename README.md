@@ -1,0 +1,2 @@
+## Tech Rush
+Loja virtual de produtos eletrônicos criada para fins educacionais, destacando o uso de menu dropdown, CSS Grid e responsividade. O conteúdo é fictício e utilizado sob licença livre, sem vínculo com marcas reais.

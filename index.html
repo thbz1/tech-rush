@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Rush</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Orbitron:wght@400..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div id="background"></div>
+    <header>
+        <div class="container">
+            <h1><a href="#">Tech Rush</a></h1>
+            <button class="hamburger" aria-label="Abrir menu"></button>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about">Sobre</a></li>
+                    <li id="submenu"><a href="#products">Produtos</a></li>
+                        <ul id="dropdown">
+                            <li><a href="#smartphone">Smartphone</a></li>
+                            <li><a href="#headphone">Headphone</a></li>
+                            <li><a href="#smartwatch">Smartwatch</a></li>
+                            <li><a href="#camera">Câmera Fotográfica</a></li>
+                        </ul>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="about" class="container">
+            <img src="images/sobre.jpg" alt="Aparelhos eletrônicos sobre uma mesa">
+            <div>
+                <h2>Sobre a loja</h2>
+                <div class="linha"></div>
+                <p>
+                    A <strong>Tech Rush</strong> é sua loja virtual de eletrônicos, trazendo as últimas novidades e inovações tecnológicas com qualidade e praticidade.
+                </p>
+                <p>
+                    Nosso compromisso é oferecer as melhores marcas e os melhores preços, com um processo de compra simples, seguro e rápido.
+                </p>
+                <p>
+                    Aqui, você encontra tecnologia de ponta a poucos cliques de distância!
+                </p>
+            </div>
+        </section>
+
+        <section id="products" class="container">
+            <h2>Produtos</h2>
+            <div class="linha"></div>
+            <div id="products-grid">
+                <div>
+                    <img src="images/smartphone.jpg" alt="Smartphone preto" id="smartphone">
+                    <h3>Smartphone</h3>
+                    <p>
+                        Smartphone, tela de 6.5", processador octa-core, câmera de 48MP, disponível nas cores: preto, azul e prata.
+                    </p>
+                    <button>Adicionar ao carrinho</button>
+                </div>
+                <div>
+                    <img src="images/headphone.jpg" alt="Headphone preto e vermelho" id="headphone">
+                    <h3>Headphone</h3>
+                    <p>
+                        Headphone Bluetooth, som surround de qualidade, até 20 horas de bateria, disponível nas cores: preto e branco.
+                    </p>
+                    <button>Adicionar ao carrinho</button>
+                </div>
+                <div>
+                    <img src="images/smartwatch.jpg" alt="Relógio smartwatch preto" id="smartwatch">
+                    <h3>Smartwatch</h3>
+                    <p>
+                        Smartwatch, tela 1.4" AMOLED, monitoramento cardíaco, GPS, até 7 dias de bateria, disponível na cor: preto.
+                    </p>
+                    <button>Adicionar ao carrinho</button>
+                </div>
+                <div>
+                    <img src="images/camera-foto.jpg" alt="Câmera fotográfica preta" id="camera">
+                    <h3>Câmera Fotográfica</h3>
+                    <p>
+                        Câmera fotográfica, 24MP, lente de zoom 10x, gravação em 4K, disponível com acessórios opcionais.
+                    </p>
+                    <button>Adicionar ao carrinho</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <div id="box-aviso">
+        <div id="aviso">
+            <p>
+                Site criado para fins educacionais. Todo o conteúdo, incluindo textos, imagens e descrições, é fictício e usado sob licença livre, sem vínculo com marcas ou empresas reais e sem comercialização de produtos.
+            </p>
+            <p>
+                &lt;/> by <a href="https://github.com/thbz1?tab=repositories" target="_blank">Thiago Osório</a>
+            </p>
+        </div>
+    </div>
+
+    <footer>
+        <div id="rodape" class="container">
+            <p>
+                &copy; Tech Rush - Todos os direitos reservados - 2025
+            </p>
+            <ul>
+                <li>
+                    <a href="#">
+                        <img src="icones/facebook.png" alt="Logo do Facebook">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="icones/instagram.png" alt="Logo do Instagram">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="icones/youtube.png" alt="Logo do Youtube">
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
