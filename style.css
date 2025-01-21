@@ -505,13 +505,13 @@ footer li img:hover {
     }
 }
 
-@media (min-width: 1086px) {    
+@media (min-width: 1086px) {
     .container {
         position: relative;
     }
-    
+
     #dropdown {
-        position: absolute;
-        top: 7.9vh;
+        top: 100%;
+        margin-top: 16px;
     }
 }
